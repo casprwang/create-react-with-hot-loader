@@ -12,6 +12,7 @@ I love Create-react-app, yet don't know why it still hasn't inplemented [react-h
 $ create-react-app <dirname>
 $ cd <dirname>
 $ npm run eject
+$npm install --save react-hot-loader@next
 ```
 in `config/webpack.config.dev.js` add `'react-hot-loader/patch'`  to entry array
 ```
@@ -21,6 +22,8 @@ in `config/webpack.config.dev.js` add `'react-hot-loader/patch'`  to entry array
 ```
 in `index.js` wrap App component into AppContainer
 ```js
+import { AppContainer } from 'react-hot-loader'
+
 function render(Component) {
   ReactDOM.render(
     <AppContainer>
