@@ -7,6 +7,12 @@ I love Create-react-app, yet don't know why it still hasn't inplemented [react-h
 ![2017-07-23 18 32 37](https://user-images.githubusercontent.com/19645990/28503478-8fcb436a-6fd5-11e7-94f5-7bb08bbbdc16.gif)
 > no browser refreshing feels so good
 
+## Try
+```
+$ git clone https://github.com/wangsongiam/create-react-with-hot-loader.git && cd create-react-with-hot-loader
+$ yarn start
+```
+
 ## How
 ```
 $ create-react-app <dirname>
@@ -42,6 +48,6 @@ if (module.hot) {
 }
 ```
 ```
-$ npm start
+$ yarn start
 ```
 and volia
