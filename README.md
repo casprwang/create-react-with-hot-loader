@@ -54,4 +54,4 @@ $ yarn start
 and volia
 
 ## Related issue
-https://github.com/wangsongiam/create-react-with-hot-loader.git
+https://github.com/gaearon/react-hot-loader/issues/595
