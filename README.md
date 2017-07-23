@@ -10,6 +10,7 @@ I love Create-react-app, yet don't know why it still hasn't inplemented [react-h
 ## Try
 ```
 $ git clone https://github.com/wangsongiam/create-react-with-hot-loader.git && cd create-react-with-hot-loader
+$ yarn
 $ yarn start
 ```
 
