@@ -52,3 +52,6 @@ if (module.hot) {
 $ yarn start
 ```
 and volia
+
+## Related issue
+https://github.com/wangsongiam/create-react-with-hot-loader.git
